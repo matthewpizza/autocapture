@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# where should the images go
+where="$HOME/Documents/captures"
+
+# does this directory exists
+if [[ ! -e $where ]]; then
+	mkdir -p "$where"
+fi
+
+# what time is it
+now=$(date +"%Y-%m-%d at %l.%M.%S %p")
+
+# what should the image be called
+# Screen Shot 2014-07-09 at 12.38.28 PM.png
+filename="Screen Shot $now".png
+
+# lets do it
+screencapture -S "$where/$filename"
