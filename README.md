@@ -30,12 +30,12 @@ Paste in the following to run the capture hourly:
 0 * * * * /usr/local/bin/autocapture
 ```
 
-To save:
-ctrl o
-enter
+To save:   
+ctrl o   
+enter   
 
-To close:
-ctrl x
+To close:   
+ctrl x   
 
 ## Uninstall
 
@@ -53,12 +53,12 @@ EDITOR=nano crontab -e
 
 Remove the cronjob:
 
-To delete the line added above:
-ctrl k
+To delete the line added above:   
+ctrl k   
 
 To save:
-ctrl o
-enter
+ctrl o   
+enter   
 
-To close:
-ctrl x
+To close:   
+ctrl x   
