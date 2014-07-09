@@ -16,4 +16,4 @@ now=$(date +"%Y-%m-%d at %l.%M.%S %p")
 filename="Screen Shot $now".png
 
 # lets do it
-screencapture -S "$where/$filename"
+/usr/sbin/screencapture -S "$where/$filename"
